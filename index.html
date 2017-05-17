@@ -28,14 +28,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
  
   
-  This is web Demo
-  <a href="/abc"> Click me</a>
+  <p> This is web Demo </p>
+ 
+  <button onclick="addEvent()">Click me</button>
   
  <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDHZXXG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   
-   
+   <script>
+     function addEvent(){
+        dataPlayer.push({"event":"vpv","virtualPagePath":"http://dvmanticore1.dv.absolute.com:3000/Pages/ng/app/home","AccountId":"150003","UserUId":"28fc8114-3c12-4afb-b228-48452c3b2ecd"});
+        dataPlayer.push({"event":"vpv","virtualPagePath":"http://dvmanticore1.dv.absolute.com:3000/Pages/ng/app/device_groups","AccountId":"150003","UserUId":"28fc8114-3c12-4afb-b228-48452c3b2ecd"});
+        dataPlayer.push({"event":"vpv","virtualPagePath":"http://dvmanticore1.dv.absolute.com:3000/Pages/ng/app/policies/policy_groups","AccountId":"150003","UserUId":"28fc8114-3c12-4afb-b228-48452c3b2ecd"});
+      }
+       
+  </script>
 </body>
 </html>
